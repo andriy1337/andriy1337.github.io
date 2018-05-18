@@ -1,0 +1,188 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.dws-menu *{
+ margin: 0;
+ padding: 0;
+}
+.dws-menu ul, ol{
+ list-style: none;
+}
+.dws-menu ul{
+ display: flex;
+ justify-content: left;
+}             
+header{
+	margin: 0;
+	padding: 0;
+ font-family: Cuprum, Arial, Helvetica, sans-serif;
+}
+
+.dws-menu ul li{
+	width: 100%;
+ position: relative;
+} 
+.dws-menu > ul li a i.fa{
+ position: absolute;
+ top: 15px;
+ left: 14px;
+ font-size: 18px;
+}   
+.dws-menu ul li:first-child{
+ border-left: 1px solid #b2b3b5;
+}
+.dws-menu ul li:last-child{
+ border-right: 1px solid #babbbd;
+} 
+.dws-menu ul li{
+ position: relative;
+ border-right: 1px solid #c7c8ca;
+}
+.dws-menu li a:hover{
+ background: #454547;
+ color: #ffffff;
+ box-shadow: 1px 5px 10px -5px black;
+ transition: all 0.3s ease;
+}   
+.dws-menu ul li a{
+ display: block;
+ background: #ececed;
+ padding: 20px 30px 15px 40px;
+ font-size: 14px;
+ color: #454547;
+ text-decoration: none;
+ text-transform:uppercase;
+ transition: all 0.3s ease;
+}     
+
+/*sub menu*/
+.dws-menu li ul{
+ position: absolute;
+  display: none;
+ min-width: 100%;
+} 
+.dws-menu li ul li{
+ border: 1px solid #c7c8ca;
+} 
+
+.dws-menu li ul li a{
+ padding: 10px;
+ text-transform: none;
+ background: #e4e4e5;
+} 
+.dws-menu li ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+}  
+.dws-menu li:hover ul{
+ display: block;
+}  
+
+/* NIKE */
+.di:hover {
+	border: 1px solid grey;
+}
+.ramka {
+	margin-top: 5%;
+	align-content: center;
+	width: 80%;
+	height: 500px;
+
+}
+.buy {
+	margin-left: 1%;
+	text-align: left;
+	width: 25%;
+    float: left;
+    margin-top: 36%;
+    
+}
+.buy2 {
+	margin-left: 2%;
+	text-align: left;
+	width: 25%;
+    float: left;
+    margin-top: 36%;
+    
+}
+.buy3 {
+	margin-left: 3%;
+	text-align: left;
+	width: 25%;
+    float: left;
+    margin-top: 36%;  
+}
+.products-list-item__img {
+    position: absolute;
+    display: block;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 20%;
+    height: 340px;
+}
+.products-list-item__img2 {
+    position: absolute;
+    display: block;
+    margin-top: 1%;
+    margin-left: 22%;
+    width: 20%;
+    height: 340px;
+}
+.products-list-item__img3 {
+    position: absolute;
+    display: block;
+    margin-top: 1%;
+    margin-left: 45%;
+    width: 20%;
+    height: 340px;
+}
+
+b {
+	color: grey;
+}
+/*golovna */
+.golovna {
+	width: 80%;
+}
+.about {
+	margin: 0;
+	width: 450px;
+	height: 250px;
+}
+.golovna2 {
+	margin-left: 3%;
+	width: 60%;
+}
+.support {
+	display: flex;
+	background-color: grey;
+	border: 1px solid grey;
+}
+.s-first-block {
+	margin-left: 10%;
+	margin-top: 5%;
+	color: white;
+}
+.s-second-block {
+
+	margin-left: 10%;
+	margin-top: 5%;
+	color: white;
+}
+.s-n-block {
+	margin-left: 10%;
+	margin-top: 5%;
+	color: white;
+}
+.s-p-block {
+	opacity: 0.5;
+	margin-left: 10%;
+	margin-top: 5%;
+	color: white;
+}
